@@ -10,7 +10,7 @@ requirements = [
     'coord-interface',
     'bjointsp',
     'coord-sim',
-    'simian-army'
+    'simianarmy'
 ]
 
 test_requirements = [
