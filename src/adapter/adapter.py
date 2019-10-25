@@ -109,6 +109,7 @@ def main():
                                     prev_embedding_file=prev_embedding, cpu=node_cap, mem=node_cap, dr=1000)
             prev_embedding = result
             placement, schedule = get_placement_and_schedule(os.path.abspath(result), nodes_list, sfc_name, sf_list)
+    simulator.params.adapter.writer.write_results(simulator.params.adapter.metrics.metrics)
 
 
 if __name__ == '__main__':
