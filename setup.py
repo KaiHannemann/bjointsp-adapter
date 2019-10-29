@@ -9,8 +9,7 @@ requirements = [
     'pyyaml>=5.1',
     'coord-interface',
     'bjointsp',
-    'coord-sim',
-    'simianarmy'
+    'coord-sim'
 ]
 
 test_requirements = [
