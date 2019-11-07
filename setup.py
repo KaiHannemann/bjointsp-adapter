@@ -3,13 +3,8 @@ import os
 from setuptools import setup, find_packages
 
 os.system('pip install git+https://github.com/RealVNF/coord-env-interface.git')
-<<<<<<< HEAD
-os.system('pip install git+https://github.com/KaiHannemann/coordination-simulation.git')
-os.system('pip install git+https://github.com/CN-UPB/B-JointSP.git')
-=======
 os.system('pip install git+https://github.com/RealVNF/coordination-simulation.git')
 os.system('pip install git+https://github.com/CN-UPB/B-JointSP.git@dev')
->>>>>>> upstream/master
 requirements = [
     'pyyaml>=5.1',
     'coord-interface',
